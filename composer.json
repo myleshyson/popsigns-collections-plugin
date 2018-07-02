@@ -1,6 +1,7 @@
 {
     "name": "myleshyson/woocommerce-vue-product-addon",
     "description": "Custom Vue plugin allowing live preview functionality",
+    "type": "wordpress-plugin",
     "autoload": {
         "psr-4": {
             "App\\": "app/"
