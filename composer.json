@@ -1,30 +1,29 @@
 {
-  "name": "myleshyson/popsigns-collections-plugin",
-  "description": "Custom Vue plugin allowing live preview functionality",
-  "type": "wordpress-plugin",
-  "autoload": {
-    "psr-4": {
-      "App\\": "app/"
+    "name": "myleshyson/woocommerce-vue-product-addon",
+    "description": "Custom Vue plugin allowing live preview functionality",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": ["helpers.php"]
     },
-    "files": [
-      "helpers.php"
-    ]
-  },
-  "prefer-stable": true,
-  "require": {
-    "php": ">=5.4",
-    "composer/installers": "~1.0",
-    "larapack/dd": "^1.1",
-    "rappasoft/laravel-helpers": "*",
-    "intervention/image": "^2.4",
-    "aws/aws-sdk-php": "2.8.28",
-    "illuminate/support": "^5.5",
-    "tightenco/collect": "^5.5"
-  },
-  "authors": [
-    {
-      "name": "Myles Hyson",
-      "email": "mylesshyson@gmail.com"
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.4",
+        "composer/installers": "~1.0",
+        "larapack/dd": "^1.1",
+        "rappasoft/laravel-helpers": "*",
+        "intervention/image": "^2.4",
+        "aws/aws-sdk-php": "2.8.28",
+        "illuminate/support": "^5.5",
+        "tightenco/collect": "^5.5"
+    },
+    "authors": [{
+        "name": "Myles Hyson",
+        "email": "myles.hyson@madmousecreative.com"
+    }],
+    "config": {
+        "vendor-dir": "./"
     }
-  ]
 }
