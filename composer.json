@@ -11,7 +11,7 @@
     "prefer-stable": true,
     "require": {
         "php": ">=5.4",
-        "composer/installers": "~1.0",
+        "composer/installers": "~1.0"
     },
     "require-dev": {
         "larapack/dd": "^1.1",
