@@ -1,5 +1,5 @@
 {
-    "name": "myleshyson/woocommerce-vue-product-addon",
+    "name": "myleshyson/popsigns-collections-plugin",
     "description": "Custom Vue plugin allowing live preview functionality",
     "type": "wordpress-plugin",
     "autoload": {
@@ -21,7 +21,7 @@
     },
     "authors": [{
         "name": "Myles Hyson",
-        "email": "myles.hyson@madmousecreative.com"
+        "email": "mylesshyson@gmail.com"
     }],
     "config": {
         "vendor-dir": "./"
