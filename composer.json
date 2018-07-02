@@ -13,9 +13,7 @@
   "prefer-stable": true,
   "require": {
     "php": ">=5.4",
-    "composer/installers": "~1.0"
-  },
-  "require-dev": {
+    "composer/installers": "~1.0",
     "larapack/dd": "^1.1",
     "rappasoft/laravel-helpers": "*",
     "intervention/image": "^2.4",
