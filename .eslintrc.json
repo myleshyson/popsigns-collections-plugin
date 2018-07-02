@@ -1,0 +1,60 @@
+{
+  "root": true,
+  "extends": ["airbnb", "plugin:vue/essential"],
+  "globals": {
+    "wp": true,
+    "$": true,
+    "post": true,
+    "jQuery": true,
+    "document": true,
+    "browser": true,
+    "app": true
+  },
+  "env": {
+    "node": true,
+    "es6": false,
+    "amd": false,
+    "browser": false,
+    "jquery": false
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "globalReturn": true,
+      "generators": false,
+      "experimentalDecorators": true,
+      "objectLiteralDuplicateProperties": false,
+      "experimentalObjectRestSpread": true
+    },
+    "ecmaVersion": 2017,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-console": "off",
+    "global-require": "off",
+    "func-names": "off",
+    "max-len": [
+      1,
+      {
+        "code": 200
+      }
+    ],
+    "import/no-extraneous-dependencies": [
+      "0",
+      {
+        "devDependencies": true,
+        "optionalDependencies": true,
+        "peerDependencies": true
+      }
+    ],
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "ignore"
+      }
+    ]
+  }
+}
