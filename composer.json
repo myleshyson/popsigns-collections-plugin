@@ -1,7 +1,7 @@
 {
   "name": "myleshyson/popsigns-collections-plugin",
   "description": "Custom Vue plugin allowing live preview functionality",
-  "type": "package",
+  "type": "wordpress-plugin",
   "autoload": {
     "psr-4": {
       "App\\": "app/"
